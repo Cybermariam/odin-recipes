@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+  height: 500px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+}
+.canvas {
+  cursor: pointer;
+  border: 1px solid black;
+}
+
+.canvas:hover {
+  cursor: pointer;
+  background-color: red;
+}
